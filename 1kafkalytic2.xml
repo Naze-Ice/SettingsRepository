@@ -1,0 +1,17 @@
+<application>
+  <component name="Kafkalytic">
+    <option name="clusters">
+      <map>
+        <entry key="192.168.1.105:9092">
+          <value>
+            <map>
+              <entry key="bootstrap.servers" value="192.168.1.105:9092" />
+              <entry key="name" value="192.168.1.105:9092" />
+              <entry key="request.timeout.ms" value="5000" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>
