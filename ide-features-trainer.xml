@@ -26,7 +26,7 @@
         <entry key="Navigation.Next/PreviousOccurrences" value="NOT_PASSED" />
         <entry key="Refactorings.ExtractMethod" value="PASSED" />
         <entry key="Refactorings.ExtractVariable/Field" value="PASSED" />
-        <entry key="Refactorings.RefactoringBasics" value="NOT_PASSED" />
+        <entry key="Refactorings.RefactoringBasics" value="PASSED" />
         <entry key="Refactorings.Rename" value="PASSED" />
         <entry key="swift.codeassistance.codeformatting" value="NOT_PASSED" />
         <entry key="swift.codeassistance.quickpopups" value="NOT_PASSED" />
@@ -58,6 +58,14 @@
   <component name="StatisticBase">
     <option name="persistedLessonId2State">
       <map>
+        <entry key="CodeAssistance.CodeFormatting">
+          <value>
+            <StatisticData>
+              <option name="state" value="STARTED" />
+              <option name="timestamp" value="1591160766948" />
+            </StatisticData>
+          </value>
+        </entry>
         <entry key="Completions.BasicCompletion">
           <value>
             <StatisticData>
@@ -165,8 +173,8 @@
         <entry key="Refactorings.RefactoringBasics">
           <value>
             <StatisticData>
-              <option name="state" value="STARTED" />
-              <option name="timestamp" value="1591155778432" />
+              <option name="state" value="PASSED" />
+              <option name="timestamp" value="4974273" />
             </StatisticData>
           </value>
         </entry>
