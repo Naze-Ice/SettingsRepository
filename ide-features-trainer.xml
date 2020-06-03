@@ -11,8 +11,8 @@
         <entry key="CodeAssistance.QuickPopups" value="NOT_PASSED" />
         <entry key="Completions.BasicCompletion" value="NOT_PASSED" />
         <entry key="Completions.CompletionwithTab" value="NOT_PASSED" />
-        <entry key="Completions.SmartTypeCompletion" value="NOT_PASSED" />
-        <entry key="Completions.StatementCompletion" value="NOT_PASSED" />
+        <entry key="Completions.SmartTypeCompletion" value="PASSED" />
+        <entry key="Completions.StatementCompletion" value="PASSED" />
         <entry key="EditorBasics.Collapse" value="NOT_PASSED" />
         <entry key="EditorBasics.CommentLine" value="PASSED" />
         <entry key="EditorBasics.DeleteLine" value="PASSED" />
@@ -24,10 +24,10 @@
         <entry key="Navigation.FileStructure" value="NOT_PASSED" />
         <entry key="Navigation.JumptoSource" value="NOT_PASSED" />
         <entry key="Navigation.Next/PreviousOccurrences" value="NOT_PASSED" />
-        <entry key="Refactorings.ExtractMethod" value="NOT_PASSED" />
-        <entry key="Refactorings.ExtractVariable/Field" value="NOT_PASSED" />
+        <entry key="Refactorings.ExtractMethod" value="PASSED" />
+        <entry key="Refactorings.ExtractVariable/Field" value="PASSED" />
         <entry key="Refactorings.RefactoringBasics" value="NOT_PASSED" />
-        <entry key="Refactorings.Rename" value="NOT_PASSED" />
+        <entry key="Refactorings.Rename" value="PASSED" />
         <entry key="swift.codeassistance.codeformatting" value="NOT_PASSED" />
         <entry key="swift.codeassistance.quickpopups" value="NOT_PASSED" />
         <entry key="swift.codegeneration.createfromusage" value="NOT_PASSED" />
@@ -66,11 +66,27 @@
             </StatisticData>
           </value>
         </entry>
-        <entry key="Completions.SmartTypeCompletion">
+        <entry key="Completions.CompletionwithTab">
           <value>
             <StatisticData>
               <option name="state" value="STARTED" />
-              <option name="timestamp" value="1591153742557" />
+              <option name="timestamp" value="1591155515540" />
+            </StatisticData>
+          </value>
+        </entry>
+        <entry key="Completions.SmartTypeCompletion">
+          <value>
+            <StatisticData>
+              <option name="state" value="PASSED" />
+              <option name="timestamp" value="1546520" />
+            </StatisticData>
+          </value>
+        </entry>
+        <entry key="Completions.StatementCompletion">
+          <value>
+            <StatisticData>
+              <option name="state" value="PASSED" />
+              <option name="timestamp" value="113286" />
             </StatisticData>
           </value>
         </entry>
@@ -127,6 +143,38 @@
             <StatisticData>
               <option name="state" value="PASSED" />
               <option name="timestamp" value="77338" />
+            </StatisticData>
+          </value>
+        </entry>
+        <entry key="Refactorings.ExtractMethod">
+          <value>
+            <StatisticData>
+              <option name="state" value="PASSED" />
+              <option name="timestamp" value="12242" />
+            </StatisticData>
+          </value>
+        </entry>
+        <entry key="Refactorings.ExtractVariable/Field">
+          <value>
+            <StatisticData>
+              <option name="state" value="PASSED" />
+              <option name="timestamp" value="31329" />
+            </StatisticData>
+          </value>
+        </entry>
+        <entry key="Refactorings.RefactoringBasics">
+          <value>
+            <StatisticData>
+              <option name="state" value="STARTED" />
+              <option name="timestamp" value="1591155778432" />
+            </StatisticData>
+          </value>
+        </entry>
+        <entry key="Refactorings.Rename">
+          <value>
+            <StatisticData>
+              <option name="state" value="PASSED" />
+              <option name="timestamp" value="118012" />
             </StatisticData>
           </value>
         </entry>
