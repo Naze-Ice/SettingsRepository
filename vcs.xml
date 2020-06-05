@@ -10,6 +10,10 @@
           <option name="url" value="https://github.com/fastmaybe/leaguecloud.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitee.com/chkui-com/spring-core-sample.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\IdeaSpace" />
