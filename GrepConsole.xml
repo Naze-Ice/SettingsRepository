@@ -109,6 +109,11 @@
         </Profile>
       </list>
     </option>
+    <option name="tailSettings">
+      <TailSettings>
+        <option name="defaultEncoding" value="GBK" />
+      </TailSettings>
+    </option>
     <option name="version" value="1" />
   </component>
 </application>
