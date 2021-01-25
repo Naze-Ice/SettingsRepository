@@ -1,0 +1,25 @@
+<application>
+  <component name="dataSourceStorage" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="bxcwgz" uuid="9a0b90e8-d678-4bdd-92d6-aded543add37">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@192.168.32.225:1521:ORCL</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="bxfund" uuid="06e6e85c-9246-446d-a2d3-75f35569fcdf">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//192.168.32.225:1521/ORCL</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="ztbb" uuid="38527ec2-5144-4233-97ca-f6a60f01d3fe">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@192.168.32.206:1521:ORCL</jdbc-url>
+    </data-source>
+  </component>
+</application>
