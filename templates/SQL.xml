@@ -1,0 +1,12 @@
+<templateSet group="SQL">
+  <template name="updc" value="update T001_LTabCell a&#10;set FContent =&#10;        (select case when FContent = '0' or trim(FContent) is null then FContent else '=' || FContent end&#10;         from T001_LTabCell b&#10;         where b.FTabNum = a.FTabNum&#10;           and a.FRow = b.FRow&#10;           and a.FCol = b.FCol)&#10;where upper(FTabNum) = '$table_name$'&#10;  and a.FRow between $row_begin$ and $row_end$&#10;  and a.FCol between $col_begin$ and $col_end$;" description="add an equal to the cell" toReformat="true" toShortenFQNames="false">
+    <variable name="table_name" expression="capitalize(String)" defaultValue="" alwaysStopAt="true" />
+    <variable name="row_begin" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="row_end" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="col_begin" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="col_end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
