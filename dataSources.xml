@@ -14,19 +14,5 @@
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
       <jdbc-url>jdbc:oracle:thin:@//192.168.32.225:1521/ORCL</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="ztbb206" uuid="38527ec2-5144-4233-97ca-f6a60f01d3fe">
-      <driver-ref>oracle</driver-ref>
-      <synchronize>true</synchronize>
-      <auto-commit>false</auto-commit>
-      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
-      <jdbc-url>jdbc:oracle:thin:@192.168.32.206:1521:ORCL</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="ztbb203" uuid="690074b9-df6e-4eb2-9791-77668224fe14">
-      <driver-ref>oracle</driver-ref>
-      <synchronize>true</synchronize>
-      <auto-commit>false</auto-commit>
-      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
-      <jdbc-url>jdbc:oracle:thin:@192.168.32.203:1521:ORCL</jdbc-url>
-    </data-source>
   </component>
 </application>
