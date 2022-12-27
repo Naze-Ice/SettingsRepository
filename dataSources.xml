@@ -21,12 +21,5 @@
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
       <jdbc-url>jdbc:oracle:thin:@//192.168.32.225:1521/ORCL</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="DB2" uuid="52b735f9-58a2-4e2e-bbf7-90c7e5a79084">
-      <driver-ref>oracle</driver-ref>
-      <synchronize>true</synchronize>
-      <auto-commit>false</auto-commit>
-      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
-      <jdbc-url>jdbc:oracle:thin:@//192.168.32.204:1521/ORCL</jdbc-url>
-    </data-source>
   </component>
 </application>
