@@ -9,8 +9,13 @@
       <option name="auto-sync" value="true" />
     </driver>
     <driver id="db2">
-      <artifact name="DB2" use="true" />
+      <artifact name="DB2" use="true" version="4.23.42" />
       <option name="auto-sync" value="false" />
+      <option name="auto-commit" value="true" />
+      <option name="format-sources-on-sync" value="true" />
+      <option name="send-app-info" value="true" />
+      <option name="source-loading" value="USER_SOURCES" />
+      <option name="schema-control" value="AUTOMATIC" />
     </driver>
     <driver id="db2.jtopen">
       <artifact name="JTOpen (DB2 iSeries)" use="true" />
