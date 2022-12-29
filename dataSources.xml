@@ -14,12 +14,5 @@
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
       <jdbc-url>jdbc:oracle:thin:@//192.168.32.225:1521/ORCL</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="bxhgTest" uuid="2eff6c6f-c59a-4236-ba9d-a78c42a64930">
-      <driver-ref>oracle</driver-ref>
-      <synchronize>true</synchronize>
-      <auto-commit>false</auto-commit>
-      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
-      <jdbc-url>jdbc:oracle:thin:@//192.168.32.225:1521/ORCL</jdbc-url>
-    </data-source>
   </component>
 </application>
