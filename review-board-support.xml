@@ -1,0 +1,11 @@
+<application>
+  <component name="com.guyazhou.tools.plugin.reviewboard.setting">
+    <option name="companionPassword" value="" />
+    <option name="companionUsername" value="" />
+    <option name="groups" value="" />
+    <option name="password" value="" />
+    <option name="people" value="gaosong" />
+    <option name="serverURL" value="http://192.168.99.237/" />
+    <option name="username" value="yangfan_cd" />
+  </component>
+</application>
