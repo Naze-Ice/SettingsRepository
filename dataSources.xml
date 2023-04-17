@@ -21,5 +21,19 @@
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
       <jdbc-url>jdbc:oracle:thin:@//192.168.32.225:1521/ORCL</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="xbrl_bj" uuid="354306c8-31da-4d5d-84ca-9e853f8a3ec3">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//192.168.99.104:1521/ORCL</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="xbrl_test" uuid="d590ffd1-0e76-4059-8561-83290312a1da">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//192.168.7.145:1521/ORCL</jdbc-url>
+    </data-source>
   </component>
 </application>
