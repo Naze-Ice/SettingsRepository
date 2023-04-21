@@ -42,5 +42,12 @@
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
       <jdbc-url>jdbc:oracle:thin:@//192.168.7.165:1521/ORCL</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="xbrl_gf" uuid="d657203b-83e6-4f56-b5e6-dd29a990e94d">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//192.168.7.160:1521/ORCL</jdbc-url>
+    </data-source>
   </component>
 </application>
