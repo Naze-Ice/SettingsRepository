@@ -30,6 +30,18 @@
           <option name="url" value="http://192.168.101.212/abc/code.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://192.168.101.212/abc/code" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://192.168.101.212:8929/abc/code/acs/core/xbrl/com.yss.acs.xbrl.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://192.168.101.212:8929" />
+          <option name="userName" value="yangfan_cd@ysstech.com" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\学习资料包\ABC" />
